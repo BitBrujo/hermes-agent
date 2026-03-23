@@ -1,9 +1,3 @@
 [deploy]
 startCommand = "bash scripts/entrypoint.sh"
 serviceType = "worker"
-
-[build]
-builder = "railpack"
-
-[build.config]
-pythonVersion = "3.11"
